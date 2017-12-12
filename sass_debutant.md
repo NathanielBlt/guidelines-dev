@@ -33,7 +33,8 @@ La procédure est expliquée ici : http://blog.idleman.fr/nodejs-15-installation
 
 * Pour sauvegarder dans un autre dossier les fichiers compilés et ne pas avoir un fichier nommé ".min.css" à côté des ".scss"
     * Ajout en première ligne de :  
-    `// compileCompressed: ../css/$1.css`
+    `// compileCompressed: ../css/$1.css` pour le style compressé.
+    `// compileExpanded`pour garder les commentaires.
     * Cette ligne remonte d'un dossier puis range dans le dossier **css** un fichier où le $1 sera remplacé par le nom du fichier suivi de l'extension ".css".  
 *> Topic référent :* https://discuss.atom.io/t/issues-questions-feedback-about-sass-autocompile/15233/9
 
